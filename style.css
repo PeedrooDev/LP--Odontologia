@@ -1,12 +1,12 @@
 /*Fonte ultilizada*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 *{ margin: 0; box-sizing: border-box; }
 
 
-html,body{ background: #212121; height: 100%; max-width: 1600px;}
+html,body{ overflow-x: hidden;
+    background: #212121; height: 100%; max-width: 1600px;}
 
 .container{margin: 0; padding: 20px 5%;}
 
@@ -30,7 +30,7 @@ html,body{ background: #212121; height: 100%; max-width: 1600px;}
     height: 700px;
 }
 section header.section_one_header nav ul{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
     display: flex;
     list-style-type: none;
     padding: 5px 2%;
@@ -49,14 +49,14 @@ header.section_one_header nav > ul > li > a{
 .text_section_one{
     margin-top: 90px;
     padding-left: 23%;
+    font-family: "Poppins", sans-serif;
 }
 
 .text_section_one h1{
     color: aliceblue;
     line-height: 1.2;
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 300;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .text_section_one h1 span{
@@ -67,30 +67,23 @@ header.section_one_header nav > ul > li > a{
     max-width: 350px;
     padding-top: 12px;
     color: white;
-    font-weight: 100; 
-    font-size:26px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200; 
+    font-size:16px;
 }
 
 .container_button {
     cursor: pointer;
     margin-top: 35px;
     border-radius: 5px;
-    width: 300px;
+    width: 320px;
     height:40px;
     background: linear-gradient(90deg, rgba(86,149,204,1) 0%, rgba(31,57,81,1) 99%);
 }
 
 .container_button:hover{
     transform: translateY(-20px);
-}
-
-
-.container_button:hover{
     transition: all .6s;
-  
 }
-
 
 
 .container_button h1{
@@ -111,13 +104,12 @@ header.section_one_header nav > ul > li > a{
 .text_section_two{
     margin-top: 100px;
     padding-left: 23%;
+    font-family: "Poppins", sans-serif;
 }
 
 .text_section_two h1{
     font-size: 40px;
-    font-size: 400;
     color: #4275a1;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .line{
@@ -128,10 +120,9 @@ header.section_one_header nav > ul > li > a{
 }
 
 .text_section_two h4{
-    font-size: 21px;
+    font-size: 18px;
     margin-top:16px;
     color: #3a3939;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -146,7 +137,7 @@ header.section_one_header nav > ul > li > a{
     cursor: pointer;
     margin-top: 40px;
     border-radius: 5px;
-    width: 250px;
+    width: 320px;
     height:40px;
     background: linear-gradient(90deg, rgba(86,149,204,1) 0%, rgba(31,57,81,1) 99%);
 }
@@ -194,12 +185,12 @@ header.section_one_header nav > ul > li > a{
 .titulo_center{
     text-align: center;
     margin-left: 25%;
+    font-family: "Poppins", sans-serif;
 }
 
 .titulo_center h1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 43px;
-    font-size: 29px;
+    font-size: 30px;
     font-weight: 400;
     color: white;
 }
@@ -237,8 +228,8 @@ header.section_one_header nav > ul > li > a{
     font-size: 16px;
     color: white;
     text-align: center;
-    font-weight: 500;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
 }
 
 .span_box_one{
@@ -256,7 +247,7 @@ header.section_one_header nav > ul > li > a{
     margin-left: 25%;
     margin-top: 80px;
     border-radius: 5px;
-    width: 250px;
+    width: 320px;
     height:40px;
     background: linear-gradient(90deg, rgba(86,149,204,1) 0%, rgba(31,57,81,1) 99%);
 }
@@ -268,11 +259,11 @@ header.section_one_header nav > ul > li > a{
 }
 
 .container_button_section03 h1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serift;
+    font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 20px;
     padding-top:3px;
-    font-weight: 100;
+    font-weight: 400;
     color: white;
 }
  
@@ -281,32 +272,32 @@ header.section_one_header nav > ul > li > a{
     padding-left: 23%;
 }
 .sobre_text h1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-top: 20%;
     font-size: 29px;
     font-weight: 400;
-    color: white;
+    color:#ffffff;
 }
 
 
 .sobre_text p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-top: 23px;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 400;
     max-width: 300px;
     text-align: justify;
     line-height: 23px;
-    color: rgb(227, 222, 222);
+    color: rgb(210, 203, 203);
 }
 
 
 
 .sobre_text h2{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-top: 33px;
     font-size: 20px;
-    font-weight:500;
+    font-weight:700;
     font-style: italic;
     color: white;
 }
@@ -319,11 +310,11 @@ section.section_04{
 }
 
 .titulo_center_04{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-top: 43px;
     font-size: 13px;
     font-weight: 100;
-    color:rgba(86,149,204,1);
+    color: #295277;
     text-align: center;
 }
 
@@ -367,15 +358,15 @@ section.section_04{
 
 .container_button_section04{
     cursor: pointer;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: white;
     font-size: 12px;
     text-align: center;
     border-radius: 5px;
     position: relative;
-    left: 40%;
+    left: 38%;
     top: -150px;
-    width: 250px;
+    width: 320px;
     height:40px;
     background: linear-gradient(90deg, rgba(86,149,204,1) 0%, rgba(31,57,81,1) 99%);
 }
@@ -395,11 +386,11 @@ section.section_04{
 }
 
 .titulo_center_05{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-top: 43px;
     font-size: 13px;
     font-weight:400;
-    color: #ffffff;
+    color: #efeded;
     text-align: center;
 }
 
@@ -409,10 +400,8 @@ section.section_04{
     width: 11%;
     height: 2px;
     margin-left:45%;
-    background: #ffffff;
+    background:#efeded;;
 }
-
-
 
 
 .container_feedback{
@@ -424,8 +413,7 @@ section.section_04{
   
 }
 .container_feedback_01{
-    
-    display: inline-flex;
+    display: flex;
     margin:  1%;
     width: 350px; 
     height: 40%;
@@ -474,7 +462,7 @@ section.section06{
 
 .text_section_06{
     padding: 100px 20%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serift
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -493,11 +481,11 @@ section.section06{
 
 .container_button_section06{
     cursor: pointer;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
     border-radius: 5px;
     margin-top: 23px;
-    width: 250px;
+    width:300px;
     height:40px;
     background: linear-gradient(90deg, rgba(86,149,204,1) 0%, rgba(31,57,81,1) 99%);
 }
@@ -514,7 +502,7 @@ section.section06{
     background: #c5cdd4;
 }
 .titulo_center_07{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-top: 43px;
     font-size: 13px;
     font-weight:400;
@@ -546,10 +534,10 @@ section.section06{
     background: linear-gradient(90deg, rgba(86,149,204,1) 0%, rgba(31,57,81,1) 99%);
 }
 .titulo_container h1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: white;
-    font-weight: 100;
-    font-size: 23px;
+    font-weight: 400;
+    font-size: 20px;
     margin-left: 25%;
     
 }
@@ -559,7 +547,6 @@ section.section06{
 .container_button_section07{
     float: right;
     cursor: pointer;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 5px;
     position:relative;
     top: -50px;
@@ -571,10 +558,11 @@ section.section06{
 
 .container_button_section07 h1{
     color: white;
+    font-family: "Poppins", sans-serif;
     padding: 5px ;
     text-align: center;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 footer{
@@ -611,7 +599,6 @@ footer{
     float: right;
     width: 250px;
     position:relative;
-   
     left: -25%;
     border-radius: 5px;
     border: 2px solid #3778b0;
@@ -625,4 +612,164 @@ footer{
     color: rgb(195, 195, 195);
     padding: 10px 5%;
     font-style: italic;
+}
+
+
+
+/*responsivo*/
+
+
+@media screen and (max-width: 768px){
+    .section_one_header{ display: none;}
+
+    .container{margin: 0; padding: 10px }
+   
+   
+   
+.section_01{
+        display: inline-flex;
+    }
+    
+    .section_02{
+        display: inline-flex ;
+        background: #f4f5f4;
+        width: 100%;
+        height:1000px;
+    }
+        
+    .container_iamgem{
+        margin-top: 43px;
+        position: relative;
+        right: auto;
+        top: 10px;
+    }
+
+    .sobre_a_clinica{
+        padding-left: 15%;
+        padding-top: 30%;
+    }    
+
+    
+
+    .titulo_center{
+        text-align: center;
+        margin-left: 10%;
+        font-family: "Poppins", sans-serif;
+    }
+
+
+
+    .container_box{
+        position: relative;
+        left:15%;
+        width: 500px;
+        height: 400px;
+    }
+
+    .container_button_section03{
+        cursor: pointer;
+        margin-left: 15%;
+        margin-top: 80px;
+        border-radius: 5px;
+        width: 320px;
+        height:40px;
+        background: linear-gradient(90deg, rgba(86,149,204,1) 0%, rgba(31,57,81,1) 99%);
+    }
+    
+    .sobre_text p{
+        font-family: "Poppins", sans-serif;
+        padding-top: 33px;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: 420px;
+     
+    }
+    
+
+    
+.resultado_img{
+    display: inline-flex;
+    margin-top: 56px;
+    width: 800px;
+    margin-left: 25%;
+    height: 500px;
+  
+}
+.container_resultado_01{
+    display: inline-flex;
+    margin:  1%;
+    width: 290px; 
+    height: 60%;
+    border: 3px  solid rgba(86,149,204,1);
+    border-radius: 5px;
+    background: hsla(209, 11%, 41%, 0.753);
+}
+
+.container_resultado_02{
+   display: none;
+}
+
+
+.container_button_section04{
+    position: relative;
+    left: 25%;
+    top: -150px;
+    width: 320px;
+    height:40px;
+}
+
+    
+
+  
+.section05{
+    width: 100%;
+    height:900px;
+    background: linear-gradient(90deg, rgba(86,149,204,1) 0%, rgba(31,57,81,1) 99%);
+}
+
+
+
+.container_feedback{
+    display: block;
+    margin-top: 56px;
+    width: 800px;
+    margin-left: 17%;
+    height: 500px;
+  
+}
+.container_feedback_01{
+    display: block;
+    margin:  1%;
+    width: 350px; 
+    height: 40%;
+    border: 3px solid hsl(208, 62%, 29%);
+    border-radius: 10px;
+    background: hsl(0, 0%, 100%);
+}
+
+.container_feedback_02{
+    display: block;
+    margin:  1%;
+    width: 350px; 
+    height: 40%;
+    border: 3px solid hsl(208, 62%, 29%);
+    border-radius:10px;
+    background: hsl(0, 0%, 100%);
+}
+
+
+
+.container_feedback_03{
+    display: block;
+    margin:  1%;
+    width: 350px;     
+    height: 40%;
+    border: 3px solid hsl(208, 62%, 29%);
+    border-radius: 10px;
+    background: hsl(0, 0%, 100%);
+}
+
+
+
+
 }
